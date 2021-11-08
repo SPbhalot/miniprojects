@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url("https://images.pexels.com/photos/7932264/pexels-photo-7932264.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+} */
+.navbar ul{
+    display: flex;
+    flex-flow: row;
+    float: right;
+    margin: 10px;
+    list-style: none;
+    
+}
+.navbar ul li{
+    margin: 10px;
+    font-family:sans-serif ;
+    font-size: 13px;
+    
+    
+}
+#menuicon{
+    height: 35px;
+    width: 35px;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuicon:hover{
+    background-color:rgb(241, 235, 235);
+    border-radius: 15px;
+    opacity: 0.8;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+#google_container{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+#s{
+    width: 45vw;
+    height: 8vh;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    font-size: 15px;
+    text-indent: 50px;
+
+
+}
+input::placeholder{
+    text-indent: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+
+}
+input:focus{
+    text-indent: 50px;
+    font-size: 15px;
+     border: none;
+}
+#s:focus{
+    border: hidden;
+}
+#s:hover{
+    box-shadow: 1px 1px 5px black;
+}
+#icon{
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+#mic{
+    position: relative;
+    top: 5px;
+    right: 40px;
+}
+#google_logo img{
+    position: relative;
+    top:-5px;
+    height:25vh;
+    width:20vw;
+}
+#btn{
+    font-size: 15px;
+    padding: 8px 10px 8px 10px;
+    position: relative;
+    top: -5px;
+    background-color: rgb(0, 120, 218);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    text-decoration: none;
+
+}
+#btn{
+    color: white;
+}
+#fialdBar{
+    position: relative;
+    top: 35px;
+    left:2px;
+
+}
+.btn_down{
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgba(230, 230, 230, 0.253);
+    padding: 12px;
+    border: none;
+    font-family:sans-serif;
+    color: rgba(0, 0, 0, 0.664);
+}
+.btn_down:hover{
+    box-shadow: 0px 0px 1px black;
+
+}
+
+#lang{
+    position: relative;
+    top: 18%;
+}
+#lang a{
+    text-decoration: none;
+}
+#lang a:hover{
+    text-decoration: underline;
+}
+#footer{
+    width: 100vw;
+    position: relative;
+    top: 130px;
+    background-color: rgba(224, 222, 222, 0.342);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+#f1{
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.191);
+}
+#f1 span{
+    position: relative;
+    top:15px;
+    left:28px;
+    color: rgba(20, 20, 20, 0.678);
+
+}
+#f2{
+    display: flex;
+    flex-flow: row;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+
+}
+#ch2f2{
+    width: 49vw;
+    text-align: right;
+}
+#ch1f2{
+    width: 49vw;
+}
+#ch2f2 a , #ch1f2 a{
+    margin: 15px;
+    color: rgba(20, 20, 20, 0.445);
+    text-decoration: none;
+    margin-right: 5px;
+}
+#ch2f2 a:hover , #ch1f2 a:hover{
+    text-decoration: underline;
+}
+
