@@ -200,4 +200,17 @@ input:focus{
 #ch2f2 a:hover , #ch1f2 a:hover{
     text-decoration: underline;
 }
+@media (max-width:700px) {
+    
+    #google_logo img{
+        width: 100px;
+        height: 120px;
+    }
+    input::placeholder{
+    font-size: 12px;
+    }
+    #s{
+        width: 300px;
+    }
+}
 
