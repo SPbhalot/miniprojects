@@ -141,8 +141,15 @@ input:focus{
     position: relative;
     top: 18%;
 }
+#lang div{
+    font-size: 13px;
+    display: inline-block;
+}
 #lang a{
     text-decoration: none;
+      margin: 5px;
+    font-size: 13px;
+    color: rgba(0, 0, 255, 0.87);
 }
 #lang a:hover{
     text-decoration: underline;
