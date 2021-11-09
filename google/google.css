@@ -66,14 +66,14 @@
 
 
 }
-input::placeholder{
+#s::placeholder{
     text-indent: 50px;
     font-size: 15px;
     font-weight: 600;
     border: none;
 
 }
-input:focus{
+#s:focus{
     text-indent: 50px;
     font-size: 15px;
      border: none;
