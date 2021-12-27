@@ -3,34 +3,46 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background-image: url("https://media.istockphoto.com/photos/question-mark-concept-picture-id1141713510?k=20&m=1141713510&s=612x612&w=0&h=3CkVjVJcrcFfBoU805a85frq91vEbkNleCXLhXK1lM8=");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
 #header{
+    font-family: 'Baloo Bhaijaan 2', cursive;
     min-width: 300px;
-    width: 70vw;
+    width: 100vw;
+    height: 4rem;
     text-align: center;
-    font-size: 3rem;
-    display: inline-block;
+    margin: auto;
+    color: white;
+    font-size: 2.5rem;
     box-shadow: 0px 1px 10px gray;
-    margin-bottom: 25px;
+    background-color:rgba(255, 99, 71, 0.644);
     font-weight: 600;
-    color: lightsalmon;
 }
 .main-div{
     width: 100vw;
     height: 100vh;
-    background-color: lightpink;
     display: grid;
     place-items: center;
+    visibility: 50%;
 
 }
 .inner-div{
-    min-width: 200px;
-    padding: 2rem 8rem;
-    background-color:#fff;
+    min-width: 100px;
+    max-width: 775px;
+    padding: 1rem 1rem;
+    background-color:rgba(255, 255, 255, 0.459);   
     box-shadow: 0px 1px 10px black;
+    border-radius: 15px;
+ 
+
 }
 h2{
     font-size: 3rem;
     font-weight: 400;
+
 }
 .answer{
     margin: 10px;
@@ -49,21 +61,21 @@ input{
     cursor: pointer;
 }
 .btn{
-    font-size: 20px;
     padding: 1rem 2rem;
     margin-left: 10px;
+    font-weight: 500;
+    font-size: 25px;
     margin-top: 50px;
-    background-color: lightblue;
+    background-color: lightcoral;
     border-radius: 5px;
-
-
 }
 
 #show{
-    background-color:lightsalmon;
+    background-color:burlywood;
     min-width: 400px;
     margin: auto;
     height: 25vh;
+    border-radius: 10px;
     margin-top: 15px;
     align-items: center;
    box-shadow: 0px 1px 8px ;
@@ -75,8 +87,15 @@ input{
     .score{
         display: none;
     }
-    .btn{
-        background-color: lightblue;
+    .btndisble{
+        pointer-events: none;
+        padding: 2rem rem;
+        background-color: gray;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        cursor: not-allowed;
+
     }
     h3{
        text-align: center;
@@ -89,3 +108,15 @@ input{
         flex-flow: column;
         padding: 1rem rem;
     }
+    #quetion{
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        font-size: 35px;
+        color: blueviolet;
+    }
+    #op1,#op2,#op3,#op4{
+    font-size: 25px;
+    color: blueviolet;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    }
+ 
